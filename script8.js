@@ -41,8 +41,8 @@ function InsertRecorsdUsingFetchApi()
  headers: headers,
  body: data,
  }
-  
- fetch("https://reqres.in/api/users",obj).then((resp)=>
+ 
+ fetch("https://api.github.com/users",obj).then((resp)=>
  {
   console.log(resp)
   return resp.json()
